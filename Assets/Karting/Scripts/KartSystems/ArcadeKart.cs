@@ -470,6 +470,16 @@ namespace KartGame.KartSystems
                 newVelocity = Vector3.MoveTowards(newVelocity, new Vector3(0, Rigidbody.velocity.y, 0), Time.fixedDeltaTime * m_FinalStats.CoastingDrag);
             }
 
+            if (GroundPercent >= 1.0f)
+            {
+                if (UnityEngine.Input.acceleration.magnitude > 3)
+                {
+                    newVelocity.y += 5;
+                    GroundPercent = 0.0f;
+                    Instantiate(JumpVFX, transform.position, Quaternion.identity);
+                }
+            }
+
             Rigidbody.velocity = newVelocity;
 
             // Drift
