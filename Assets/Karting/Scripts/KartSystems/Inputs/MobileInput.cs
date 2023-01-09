@@ -12,11 +12,12 @@ namespace KartGame.KartSystems
         public override InputData GenerateInput()
         {
             bool breaking = IsBreaking();
+            Input.gyro.enabled = true;
             return new InputData
             {
                 Accelerate = breaking ? false : IsAccelerating(),
                 Brake = breaking,
-                TurnInput = Input.GetAxis("Horizontal")
+                TurnInput = -Input.gyro.attitude.x * 5.0f
             };
         }
 
