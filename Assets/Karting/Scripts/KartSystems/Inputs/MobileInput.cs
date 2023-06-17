@@ -9,6 +9,15 @@ namespace KartGame.KartSystems
         public string AccelerateButtonName = "Accelerate";
         public string BrakeButtonName = "Brake";
 
+        private void Awake()
+        {
+            //if (SystemInfo.supportsGyroscope)
+            //{
+            //    Input.gyro.enabled = true;
+            //}
+            //else Destroy(GetComponent<MobileInput>());
+        }
+
         public override InputData GenerateInput()
         {
             Input.gyro.enabled = true;
