@@ -6682,6 +6682,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -5
       objectReference: {fileID: 0}
+    - target: {fileID: 5136999603215535238, guid: b26c4a65cf4c6475a92bfd03c2c3282b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6934670203731004115, guid: b26c4a65cf4c6475a92bfd03c2c3282b,
         type: 3}
       propertyPath: m_PlayableAsset
@@ -6728,6 +6733,12 @@ PrefabInstance:
 --- !u!224 &695900666 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3878065802378232314, guid: b26c4a65cf4c6475a92bfd03c2c3282b,
+    type: 3}
+  m_PrefabInstance: {fileID: 695900665}
+  m_PrefabAsset: {fileID: 0}
+--- !u!223 &695900667 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 7931070421341130904, guid: b26c4a65cf4c6475a92bfd03c2c3282b,
     type: 3}
   m_PrefabInstance: {fileID: 695900665}
   m_PrefabAsset: {fileID: 0}
@@ -19945,6 +19956,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8905404825170889821, guid: d44758e614a55b246ba36bc6282cff53,
+        type: 3}
+      propertyPath: canvasHojas
+      value: 
+      objectReference: {fileID: 695900667}
     - target: {fileID: 8905404825170889823, guid: d44758e614a55b246ba36bc6282cff53,
         type: 3}
       propertyPath: m_Name
