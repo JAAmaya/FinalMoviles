@@ -26,7 +26,8 @@ namespace KartGame.KartSystems
                 //Accelerate = breaking ? false : IsAccelerating(),
                 Accelerate = IsAccelerating(),
                 Brake = IsBraking(),
-                TurnInput = Input.gyro.attitude.x * 3.5f
+                //TurnInput = Input.gyro.attitude.x * 3.5f
+                TurnInput = Input.acceleration.x *1.4f
             };
         }
 
