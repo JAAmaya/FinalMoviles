@@ -3,7 +3,17 @@ guid: 670e61acbec03094ebec3047512982d4
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Octane Body
+    second: {fileID: 2100000, guid: beee2e175ce31414dbe57ac7b271e709, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Octane Chassis
+    second: {fileID: 2100000, guid: 8bc954006e61e8d4d94f6af0d1d3523f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
