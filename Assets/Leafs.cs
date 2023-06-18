@@ -20,7 +20,7 @@ public class Leafs : MonoBehaviour
     {
         if (other.CompareTag("Wheels") || other.CompareTag("Player"))
         {
-            Debug.Log("Activar el canvas del las hojas");
+            //Debug.Log("Activar el canvas del las hojas");
             canvasHojas.gameObject.SetActive(true);
             Destroy(this.gameObject);
         }
