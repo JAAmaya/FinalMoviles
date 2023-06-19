@@ -49,12 +49,12 @@ public class ObjectiveReachTargets : Objective
         if (targetRemaining == 0)
         {
             CompleteObjective(string.Empty, GetUpdatedCounterAmount(),
-                "Objetivo completado " + title);
+                "Objective complete: " + title);
         }
         else if (targetRemaining == 1)
         {
             string notificationText = notificationPickupsRemainingThreshold >= targetRemaining
-                ? "Queda un" + targetName
+                ? "One " + targetName + " left"
                 : string.Empty;
             UpdateObjective(string.Empty, GetUpdatedCounterAmount(), notificationText);
         }
