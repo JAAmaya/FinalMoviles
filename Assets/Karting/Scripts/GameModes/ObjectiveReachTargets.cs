@@ -23,10 +23,10 @@ public class ObjectiveReachTargets : Objective
         
         yield return new WaitForEndOfFrame();
 
-        title = "Collect " +
+        /*title = "Collect " +
                 (mustCollectAllPickups ? "all the" : pickupsToCompleteObjective.ToString()) + " " +
                 targetName + "s";
-        
+        */
         if (mustCollectAllPickups)
             pickupsToCompleteObjective = NumberOfPickupsTotal;
         
@@ -49,12 +49,12 @@ public class ObjectiveReachTargets : Objective
         if (targetRemaining == 0)
         {
             CompleteObjective(string.Empty, GetUpdatedCounterAmount(),
-                "Objective complete: " + title);
+                "Objetivo completado " + title);
         }
         else if (targetRemaining == 1)
         {
             string notificationText = notificationPickupsRemainingThreshold >= targetRemaining
-                ? "One " + targetName + " left"
+                ? "Queda un" + targetName
                 : string.Empty;
             UpdateObjective(string.Empty, GetUpdatedCounterAmount(), notificationText);
         }

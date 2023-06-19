@@ -70,6 +70,7 @@ public abstract class Objective : MonoBehaviour
     
     void OnEnable()
     {
+        Debug.Log(this.gameObject);
         OnRegisterPickup += RegisterPickup;
         OnUnregisterPickup += UnregisterPickup;
     }

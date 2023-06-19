@@ -1218,6 +1218,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6435499550973355433, guid: d5cf9c31208d745c1856acc71c9cb1ca,
+        type: 3}
+      propertyPath: message
+      value: Pasa por todos los puntos de control antes de que se agote el tiempo
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435499550973355434, guid: d5cf9c31208d745c1856acc71c9cb1ca,
+        type: 3}
+      propertyPath: title
+      value: Pasa por los puntos de control
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435499550973355434, guid: d5cf9c31208d745c1856acc71c9cb1ca,
+        type: 3}
+      propertyPath: targetName
+      value: Puntos de control
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435499550973355434, guid: d5cf9c31208d745c1856acc71c9cb1ca,
+        type: 3}
+      propertyPath: description
+      value: Puntos de control
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5cf9c31208d745c1856acc71c9cb1ca, type: 3}
 --- !u!4 &643180227 stripped
@@ -1288,6 +1308,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 134547017375206124, guid: b26c4a65cf4c6475a92bfd03c2c3282b,
+        type: 3}
+      propertyPath: message
+      value: "Se acab\xF3 el tiempo"
+      objectReference: {fileID: 0}
     - target: {fileID: 530548658944599566, guid: b26c4a65cf4c6475a92bfd03c2c3282b,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -1327,6 +1352,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -32.190002
+      objectReference: {fileID: 0}
+    - target: {fileID: 826031275727423379, guid: b26c4a65cf4c6475a92bfd03c2c3282b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 944144076728837461, guid: b26c4a65cf4c6475a92bfd03c2c3282b,
         type: 3}
@@ -1449,6 +1479,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 1f793d65972c8f5458aeba9a60943165,
         type: 3}
+    - target: {fileID: 3755954870476285536, guid: b26c4a65cf4c6475a92bfd03c2c3282b,
+        type: 3}
+      propertyPath: message
+      value: Todos los objetivos completados
+      objectReference: {fileID: 0}
     - target: {fileID: 3785952511594092844, guid: b26c4a65cf4c6475a92bfd03c2c3282b,
         type: 3}
       propertyPath: m_UiScaleMode
@@ -1557,7 +1592,12 @@ PrefabInstance:
     - target: {fileID: 5136999603215535238, guid: b26c4a65cf4c6475a92bfd03c2c3282b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6702411687980796839, guid: b26c4a65cf4c6475a92bfd03c2c3282b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6832569551593709802, guid: b26c4a65cf4c6475a92bfd03c2c3282b,
         type: 3}
@@ -3351,8 +3391,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.29811054, y: 0.06407178, z: 0.20675753}
-  m_Center: {x: 0, y: -0.009617389, z: 0}
+  m_Size: {x: 0.29811054, y: 0.06281862, z: 0.20675753}
+  m_Center: {x: 0, y: -0.010243983, z: 0}
 --- !u!1001 &1345452873
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5756,7 +5796,7 @@ RectTransform:
   m_Children:
   - {fileID: 981045046}
   m_Father: {fileID: 695900666}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
