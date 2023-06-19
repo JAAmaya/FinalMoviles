@@ -53,14 +53,11 @@ public class MicrophoneDestroy : MonoBehaviour
     public float getMicVolume()
     {
         _audioSource.GetOutputData(clipSampleData, 0);
-
         float totalLoud = 0;
         for (int i = 0; i < 128; i++)
         {
             totalLoud += Mathf.Abs(clipSampleData[i]);
-            
         }
-
         return (totalLoud / 128);
     }
 }

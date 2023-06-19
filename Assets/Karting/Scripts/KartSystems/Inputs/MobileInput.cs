@@ -23,10 +23,8 @@ namespace KartGame.KartSystems
             Input.gyro.enabled = true;
             return new InputData
             {
-                //Accelerate = breaking ? false : IsAccelerating(),
                 Accelerate = IsAccelerating(),
                 Brake = IsBraking(),
-                //TurnInput = Input.gyro.attitude.x * 3.5f
                 TurnInput = Input.acceleration.x *1.4f
             };
         }
