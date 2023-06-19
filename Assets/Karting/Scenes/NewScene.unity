@@ -1221,22 +1221,22 @@ PrefabInstance:
     - target: {fileID: 6435499550973355433, guid: d5cf9c31208d745c1856acc71c9cb1ca,
         type: 3}
       propertyPath: message
-      value: Pasa por todos los puntos de control antes de que se agote el tiempo
+      value: Go through every checkpoint before time is over
       objectReference: {fileID: 0}
     - target: {fileID: 6435499550973355434, guid: d5cf9c31208d745c1856acc71c9cb1ca,
         type: 3}
       propertyPath: title
-      value: Pasa por los puntos de control
+      value: Pass every checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 6435499550973355434, guid: d5cf9c31208d745c1856acc71c9cb1ca,
         type: 3}
       propertyPath: targetName
-      value: Puntos de control
+      value: Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 6435499550973355434, guid: d5cf9c31208d745c1856acc71c9cb1ca,
         type: 3}
       propertyPath: description
-      value: Puntos de control
+      value: Checkpoints
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5cf9c31208d745c1856acc71c9cb1ca, type: 3}
@@ -1358,7 +1358,7 @@ PrefabInstance:
     - target: {fileID: 134547017375206124, guid: b26c4a65cf4c6475a92bfd03c2c3282b,
         type: 3}
       propertyPath: message
-      value: "Se acab\xF3 el tiempo"
+      value: Time is over
       objectReference: {fileID: 0}
     - target: {fileID: 530548658944599566, guid: b26c4a65cf4c6475a92bfd03c2c3282b,
         type: 3}
@@ -1408,12 +1408,12 @@ PrefabInstance:
     - target: {fileID: 826031275727423379, guid: b26c4a65cf4c6475a92bfd03c2c3282b,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 826031275727423379, guid: b26c4a65cf4c6475a92bfd03c2c3282b,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 826031275727423379, guid: b26c4a65cf4c6475a92bfd03c2c3282b,
         type: 3}
@@ -1428,12 +1428,12 @@ PrefabInstance:
     - target: {fileID: 826031275727423379, guid: b26c4a65cf4c6475a92bfd03c2c3282b,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -96.27
+      value: -68
       objectReference: {fileID: 0}
     - target: {fileID: 826031275727423379, guid: b26c4a65cf4c6475a92bfd03c2c3282b,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 46
+      value: -68
       objectReference: {fileID: 0}
     - target: {fileID: 944144076728837461, guid: b26c4a65cf4c6475a92bfd03c2c3282b,
         type: 3}
@@ -1559,7 +1559,7 @@ PrefabInstance:
     - target: {fileID: 3755954870476285536, guid: b26c4a65cf4c6475a92bfd03c2c3282b,
         type: 3}
       propertyPath: message
-      value: Todos los objetivos completados
+      value: All checkpoints reached
       objectReference: {fileID: 0}
     - target: {fileID: 3785952511594092844, guid: b26c4a65cf4c6475a92bfd03c2c3282b,
         type: 3}
