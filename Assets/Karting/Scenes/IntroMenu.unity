@@ -184,8 +184,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Controls
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 75063828274bdb145a55f6dd2f22e8b2, type: 2}
-  m_sharedMaterial: {fileID: 21098970014090698, guid: 75063828274bdb145a55f6dd2f22e8b2,
+  m_fontAsset: {fileID: 11400000, guid: 2322e1d2f7aa5ed448ed8c37a7d5e1fe, type: 2}
+  m_sharedMaterial: {fileID: -1196243362647297779, guid: 2322e1d2f7aa5ed448ed8c37a7d5e1fe,
     type: 2}
   m_fontSharedMaterials:
   - {fileID: 21098970014090698, guid: 75063828274bdb145a55f6dd2f22e8b2, type: 2}
@@ -1288,8 +1288,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Toy Gesture Racing
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 75063828274bdb145a55f6dd2f22e8b2, type: 2}
-  m_sharedMaterial: {fileID: 21098970014090698, guid: 75063828274bdb145a55f6dd2f22e8b2,
+  m_fontAsset: {fileID: 11400000, guid: 2322e1d2f7aa5ed448ed8c37a7d5e1fe, type: 2}
+  m_sharedMaterial: {fileID: -1196243362647297779, guid: 2322e1d2f7aa5ed448ed8c37a7d5e1fe,
     type: 2}
   m_fontSharedMaterials:
   - {fileID: 21098970014090698, guid: 75063828274bdb145a55f6dd2f22e8b2, type: 2}
@@ -1737,8 +1737,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Play
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 75063828274bdb145a55f6dd2f22e8b2, type: 2}
-  m_sharedMaterial: {fileID: 21098970014090698, guid: 75063828274bdb145a55f6dd2f22e8b2,
+  m_fontAsset: {fileID: 11400000, guid: 2322e1d2f7aa5ed448ed8c37a7d5e1fe, type: 2}
+  m_sharedMaterial: {fileID: -1196243362647297779, guid: 2322e1d2f7aa5ed448ed8c37a7d5e1fe,
     type: 2}
   m_fontSharedMaterials:
   - {fileID: 21098970014090698, guid: 75063828274bdb145a55f6dd2f22e8b2, type: 2}
